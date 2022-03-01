@@ -588,6 +588,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex: 1 1 auto;
 }
 
+.grid-flow-row {
+  grid-auto-flow: row;
+}
+
 .grid-flow-col {
   grid-auto-flow: column;
 }
@@ -638,6 +642,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .gap-1 {
   gap: 0.25rem;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+
+.rounded-md {
+  border-radius: 0.375rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
 }
 
 .bg-red-300 {
