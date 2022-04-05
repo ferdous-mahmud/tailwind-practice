@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  a {
-    @apply text-green-500 underline;
+@layer components {
+  .menu-button {
+    @apply bg-green-500 px-3 py-2 rounded-md font-semibold;
   }
 }
